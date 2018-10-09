@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  VKPhotos
+
+  Created by Yury Smidovich on 18/09/2018.
+  Copyright © 2018 Yury Smidovich. All rights reserved.
+*/
+
+"NSCameraUsageDescription" = "Чтобы загружать фотографии снятые на камеру";
+"NSPhotoLibraryAddUsageDescription" = "Это необходимо чтобы сохранить фотографию на устройство";
+"NSPhotoLibraryUsageDescription" = "Чтобы загружать фотографии из фотогалереи устройства";

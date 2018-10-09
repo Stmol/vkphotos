@@ -1,0 +1,92 @@
+/* 
+  Localizable.strings
+  VKPhotos
+
+  Created by Yury Smidovich on 12/09/2018.
+  Copyright © 2018 Yury Smidovich. All rights reserved.
+*/
+
+"All" = "All";
+"Likes" = "Likes";
+"Camera" = "Camera";
+"Photo Library" = "Photo Library";
+"Clear Cache" = "Clear Cache";
+
+"Log out info" = "Your profile information will be deleted from this device.\n\nIf you want to deny app access to your VK profile - use the settings on the official site vk.com";
+
+"of" = "of";
+
+// Actions
+"Cancel" = "Cancel";
+"Don't Save" = "Don't Save";
+"Done" = "Done";
+"Edit" = "Edit";
+"Delete" = "Delete";
+"Move" = "Move";
+"Waiting" = "Waiting";
+"Uploading" = "Uploading";
+"Finished" = "Done";
+"Error" = "Error";
+"Logging Out" = "Logging Out";
+"Block User" = "Block User";
+"Unblock User" = "Unblock User";
+"Open In Browser" = "Open In Browser";
+
+"Add to Saved" = "Add to Saved";
+"Move to Album" = "Move to Album";
+"Edit Caption" = "Edit Caption";
+"Set as Album Cover" = "Set as Album Cover";
+"Recover" = "Recover";
+"Report Photo" = "Report Photo";
+"Report reason" = "Report reason";
+
+"It's spam" = "It's spam";
+"Verbal abuse" = "Verbal abuse";
+"Adult content" = "Adult content";
+"Drug advocacy" = "Drug advocacy";
+"Child pornography" = "Child pornography";
+"Violence" = "Violence";
+"Extremism" = "Extremism";
+
+"Who Can View" = "Who Can View";
+"Who Can Comment" = "Who Can Comment";
+
+// Errors
+"Something went wrong" = "Something went wrong";
+"Failed to update data" = "Failed to update data";
+"Error requesting data" = "Error requesting data";
+"Must to update data" = "Must to update data";
+"Pull down" = "Pull down";
+"Data on the server has changed" = "Data on the server has changed";
+"No Internet connection" = "No Internet connection";
+"Album does't select" = "Album does't select";
+
+// Photos
+"No Photo" = "No Photos";
+"photos" = "photos";
+
+"Uploading in progress" = "Uploading in progress";
+"Stop uploading" = "Stop";
+
+"one photo" = "photo";
+"few photos" = "photos";
+"many photos" = "photos";
+
+"Blocked User Info" = "User is blocked and you can’t see his photos.\n\nBut this photo still in your bookmarks. Just tap on the heart icon to delete it. The photo will disappear after you close the gallery.\n";
+
+// Albums
+"No Albums" = "No Albums";
+"Delete Album" = "Delete Album";
+"Album Description" = "Album description";
+"Album and all photos in it will be permanently deleted. This cannot be undone." = "Album and all photos in it will be permanently deleted. This cannot be undone.";
+
+"one album" = "album";
+"few albums" = "albums";
+"many albums" = "albums";
+
+"All Users" = "All Users";
+"Only Me" = "Only Me";
+"Friends Only" = "Friends Only";
+"Friends and Their Friends" = "Friends and Their Friends";
+"Certain Friends" = "Certain Friends";
+"Friends from Lists" = "Friends from Lists";

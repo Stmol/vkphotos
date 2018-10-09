@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Slide Leaf View Controller-->
+        <scene sceneID="EvD-aw-ltv">
+            <objects>
+                <viewController storyboardIdentifier="SlideLeafViewController" automaticallyAdjustsScrollViewInsets="NO" id="hjv-D4-Ilg" customClass="SlideLeafViewController" customModule="VKPhotos" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J8l-v5-y5b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="skY-HS-mXg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TF7-5J-cgt" userLabel="Gestures Container">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="o3E-ST-De7">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <gestureRecognizers/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ilX-oe-BaD">
+                                            <size key="itemSize" width="50" height="50"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="g9P-OT-Tlv" appends="YES" id="WmK-wZ-tWW"/>
+                                        </connections>
+                                    </collectionView>
+                                </subviews>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Mxf-wT-zDF" appends="YES" id="E7O-c8-Iaf"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="skY-HS-mXg" secondAttribute="trailing" id="3u0-ET-4Zi"/>
+                            <constraint firstItem="TF7-5J-cgt" firstAttribute="trailing" secondItem="J8l-v5-y5b" secondAttribute="trailing" id="6m8-jy-yTo"/>
+                            <constraint firstItem="TF7-5J-cgt" firstAttribute="bottom" secondItem="J8l-v5-y5b" secondAttribute="bottom" id="Kr0-Pq-JaM"/>
+                            <constraint firstAttribute="bottom" secondItem="skY-HS-mXg" secondAttribute="bottom" id="Mps-sk-itn"/>
+                            <constraint firstItem="skY-HS-mXg" firstAttribute="leading" secondItem="J8l-v5-y5b" secondAttribute="leading" id="PhW-Al-cc1"/>
+                            <constraint firstItem="TF7-5J-cgt" firstAttribute="leading" secondItem="J8l-v5-y5b" secondAttribute="leading" id="XyK-JN-sxq"/>
+                            <constraint firstItem="TF7-5J-cgt" firstAttribute="top" secondItem="J8l-v5-y5b" secondAttribute="top" id="bsv-S4-sU7"/>
+                            <constraint firstItem="skY-HS-mXg" firstAttribute="top" secondItem="J8l-v5-y5b" secondAttribute="top" id="rF9-a8-Cau"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="a3n-2W-I2a"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="o3E-ST-De7" id="zQF-Lc-Vr6"/>
+                        <outlet property="collectionViewLeadingConstraint" destination="XyK-JN-sxq" id="ebJ-De-hiL"/>
+                        <outlet property="collectionViewTrailingConstraint" destination="6m8-jy-yTo" id="dID-ZZ-gF6"/>
+                        <outlet property="flowLayout" destination="ilX-oe-BaD" id="87Y-aQ-0s2"/>
+                        <outlet property="gesturesContainerView" destination="TF7-5J-cgt" id="uSI-Dx-OBp"/>
+                        <outlet property="rotationBlackImageView" destination="skY-HS-mXg" id="AYS-j7-YnQ"/>
+                        <outlet property="singleTapGesture" destination="g9P-OT-Tlv" id="xjJ-cb-j08"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hp5-39-1yp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Mxf-wT-zDF">
+                    <connections>
+                        <action selector="handlePanGesture:" destination="hjv-D4-Ilg" id="6ND-Sp-aOI"/>
+                    </connections>
+                </panGestureRecognizer>
+                <tapGestureRecognizer id="g9P-OT-Tlv">
+                    <connections>
+                        <action selector="handleTapGesture:" destination="hjv-D4-Ilg" id="36f-C3-2hx"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="511.19999999999999" y="61.619190404797607"/>
+        </scene>
+    </scenes>
+</document>

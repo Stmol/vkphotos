@@ -1,0 +1,92 @@
+/* 
+  Localizable.strings
+  VKPhotos
+
+  Created by Yury Smidovich on 12/09/2018.
+  Copyright © 2018 Yury Smidovich. All rights reserved.
+*/
+
+"All" = "Все";
+"Likes" = "Лайки";
+"Camera" = "Камера";
+"Photo Library" = "Выбрать из галереи";
+"Clear Cache" = "Удалить кэш";
+
+"Log out info" = "Все данные вашей учетной записи будут удалены с устройства.\\n\\nЕсли вы хотите запретить доступ приложению к вашей учетной записи ВКонтакте - воспользуйтесь настройками на сайте vk.com";
+
+"of" = "из";
+
+// Actions
+"Don't Save" = "Не сохранять";
+"Cancel" = "Отмена";
+"Done" = "Готово";
+"Edit" = "Изм.";
+"Delete" = "Удалить";
+"Move" = "Переместить";
+"Waiting" = "В очереди";
+"Uploading" = "Загрузка";
+"Finished" = "Готово";
+"Error" = "Ошибка";
+"Logging Out" = "Выйти?";
+"Block User" = "Заблокировать";
+"Unblock User" = "Разблокировать";
+"Open In Browser" = "Открыть в браузере";
+
+"Add to Saved" = "Сохранить к себе";
+"Move to Album" = "Перенести в альбом";
+"Edit Caption" = "Изменить описание";
+"Set as Album Cover" = "Сделать обложкой";
+"Recover" = "Восстановить";
+"Report Photo" = "Пожаловаться";
+"Report reason" = "Выберите причину";
+
+"It's spam" = "Это спам";
+"Verbal abuse" = "Оскорбление";
+"Adult content" = "Материал для взрослых";
+"Drug advocacy" = "Пропаганда наркотиков";
+"Child pornography" = "Детская порнография";
+"Violence" = "Насилие";
+"Extremism" = "Экстремизм";
+
+"Who Can View" = "Могут видеть";
+"Who Can Comment" = "Могут комментировать";
+
+// Errors
+"Something went wrong" = "Произошла ошибка";
+"Failed to update data" = "Не удалось обновить данные";
+"Error requesting data" = "Ошибка при запросе данных";
+"Must to update data" = "Необходимо обновить данные";
+"Pull down" = "Потяните вниз";
+"Data on the server has changed" = "Данные на сервере изменились";
+"No Internet connection" = "Отсутствует интернет соединение";
+"Album does't select" = "Альбом не выбран";
+
+// Photos
+"No Photo" = "Фотографий нет";
+"photos" = "фото";
+
+"Uploading in progress" = "Прервать загрузку?";
+"Stop uploading" = "Прервать";
+
+"one photo" = "фотография";
+"few photos" = "фотографии";
+"many photos" = "фотографий";
+
+"Blocked User Info" = "Пользователь заблокирован, поэтому вы не можете видеть его фото.\n\nЭта фотография все еще в ваших закладках. Нажмите иконку сердца, чтобы удалить ее. Она исчезнет после того как вы закроете галерею.\n";
+
+// Albums
+"No Albums" = "Альбомов нет";
+"Album Description" = "Описание альбома";
+"Delete Album" = "Удалить альбом?";
+"Album and all photos in it will be permanently deleted. This cannot be undone." = "Альбом и все фотографии в нем будут безвозвратно удалены. Это действие нельзя отменить.";
+
+"one album" = "альбом";
+"few albums" = "альбома";
+"many albums" = "альбомов";
+
+"All Users" = "Все пользователи";
+"Only Me" = "Только я";
+"Friends Only" = "Только друзья";
+"Friends and Their Friends" = "Друзья и друзья друзей";
+"Certain Friends" = "Некоторые друзья";
+"Friends from Lists" = "Некоторые списки друзей";

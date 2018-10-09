@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  VKPhotos
+
+  Created by Yury Smidovich on 18/09/2018.
+  Copyright © 2018 Yury Smidovich. All rights reserved.
+*/
+
+"NSCameraUsageDescription" = "To upload photos taken with the camera";
+"NSPhotoLibraryAddUsageDescription" = "Required to save photos to camera roll";
+"NSPhotoLibraryUsageDescription" = "To upload photos from your photo gallery";

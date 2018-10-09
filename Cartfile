@@ -1,0 +1,11 @@
+github "VKCOM/vk-ios-sdk" >= 1.4
+github "ReactiveX/RxSwift" ~> 4.0
+github "onevcat/Kingfisher"
+github "Flipboard/FLAnimatedImage"
+github "luispadron/UICircularProgressRing" == 2.2.0
+github "malcommac/Hydra"
+github "onmyway133/DeepDiff"
+github "Alamofire/Alamofire" ~> 4.7
+github "Marxon13/M13Checkbox"
+github "Boris-Em/BEMCheckBox" >= 1.4
+github "ashleymills/Reachability.swift"

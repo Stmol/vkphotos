@@ -1,0 +1,16 @@
+disabled_rules:
+  - todo
+  - line_length # 200
+  - file_length # 400
+  - function_body_length # 40
+  - identifier_name
+
+  # This should be back on soon.:
+  - multiple_closures_with_trailing_closure
+  - force_cast
+  - type_body_length
+  - nesting
+
+included:
+  # paths to include during linting. `--path` is ignored if present.
+  - VKPhotos

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotosGridCell" id="H1m-fA-YQk" customClass="PhotosGridCell" customModule="VKPhotos" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Enx-q1-EbA">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92941176470588238" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TSX-lE-c8C" customClass="BEMCheckBox">
+                        <rect key="frame" x="5" y="5" width="20" height="20"/>
+                        <color key="tintColor" red="0.16078431369999999" green="0.45882352939999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="obS-hr-fkA"/>
+                            <constraint firstAttribute="height" constant="20" id="uWE-vq-QaE"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="on" value="NO"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                <real key="value" value="1.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="onFillColor">
+                                <color key="value" red="0.16078431369999999" green="0.45882352939999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="onTintColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="onCheckColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="animationDuration">
+                                <real key="value" value="0.10000000000000001"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.92549019610000005" green="0.92941176469999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Enx-q1-EbA" firstAttribute="top" secondItem="H1m-fA-YQk" secondAttribute="top" id="AU6-fc-CK9"/>
+                <constraint firstItem="Enx-q1-EbA" firstAttribute="leading" secondItem="H1m-fA-YQk" secondAttribute="leading" id="CrF-lD-1J4"/>
+                <constraint firstItem="TSX-lE-c8C" firstAttribute="top" secondItem="H1m-fA-YQk" secondAttribute="top" constant="5" id="Fny-Gi-zcb"/>
+                <constraint firstAttribute="bottom" secondItem="Enx-q1-EbA" secondAttribute="bottom" id="Ran-zs-OVe"/>
+                <constraint firstItem="TSX-lE-c8C" firstAttribute="leading" secondItem="H1m-fA-YQk" secondAttribute="leading" constant="5" id="VQ2-Ys-Nei"/>
+                <constraint firstAttribute="trailing" secondItem="Enx-q1-EbA" secondAttribute="trailing" id="tZk-7g-mNN"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="tBF-D4-cmi"/>
+            <size key="customSize" width="318" height="275"/>
+            <connections>
+                <outlet property="checkBox" destination="TSX-lE-c8C" id="U5U-f8-lkC"/>
+                <outlet property="imageView" destination="Enx-q1-EbA" id="bV0-QY-lmO"/>
+            </connections>
+            <point key="canvasLocation" x="-130" y="-57"/>
+        </collectionViewCell>
+    </objects>
+</document>

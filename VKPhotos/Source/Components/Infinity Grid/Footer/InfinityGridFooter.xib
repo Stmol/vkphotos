@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="Sne-Ri-FpS" customClass="InfinityGridFooter" customModule="VKPhotos" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="450" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="W78-RX-cyX">
+                    <rect key="frame" x="215" y="44" width="20" height="20"/>
+                </activityIndicatorView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Нет данных для списка" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3h-4c-3MB">
+                    <rect key="frame" x="137" y="44.5" width="176.5" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.44313725490196076" green="0.45882352941176469" blue="0.47843137254901957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="W78-RX-cyX" firstAttribute="centerY" secondItem="Sne-Ri-FpS" secondAttribute="centerY" id="0MC-Iu-a6z"/>
+                <constraint firstItem="W78-RX-cyX" firstAttribute="centerX" secondItem="Sne-Ri-FpS" secondAttribute="centerX" id="Pn9-Ku-epJ"/>
+                <constraint firstItem="y3h-4c-3MB" firstAttribute="centerX" secondItem="Sne-Ri-FpS" secondAttribute="centerX" id="Umb-QP-IBo"/>
+                <constraint firstItem="y3h-4c-3MB" firstAttribute="centerY" secondItem="Sne-Ri-FpS" secondAttribute="centerY" id="dfF-ic-eRC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Ru2-PU-xQl"/>
+            <connections>
+                <outlet property="loadingIndicator" destination="W78-RX-cyX" id="TNe-kL-Nov"/>
+                <outlet property="statusLabel" destination="y3h-4c-3MB" id="nmz-C6-Qrv"/>
+            </connections>
+            <point key="canvasLocation" x="-174" y="-23"/>
+        </view>
+    </objects>
+</document>

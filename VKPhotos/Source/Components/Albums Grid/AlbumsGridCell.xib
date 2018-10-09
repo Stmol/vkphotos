@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AlbumsGridCell" id="FuT-1p-mn9" customClass="AlbumsGridCell" customModule="VKPhotos" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="474"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="406" height="474"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xzX-bN-DE0">
+                        <rect key="frame" x="0.0" y="0.0" width="406" height="406"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92941176470588238" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" secondItem="xzX-bN-DE0" secondAttribute="width" multiplier="1:1" id="8eN-GJ-7zu"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="xuN-hy-cqq">
+                        <rect key="frame" x="0.0" y="411" width="406" height="58"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4J-lI-aWM">
+                                <rect key="frame" x="0.0" y="0.0" width="406" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIw-WQ-bmq">
+                                <rect key="frame" x="0.0" y="32" width="406" height="26"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <color key="textColor" red="0.56470588235294117" green="0.58039215686274503" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcY-sh-kyy">
+                        <rect key="frame" x="382" y="381" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="HJU-jL-alc"/>
+                            <constraint firstAttribute="height" constant="20" id="baA-oR-LJ7"/>
+                        </constraints>
+                        <color key="tintColor" white="1" alpha="0.70012842465753422" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <button contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKW-Cd-XXZ">
+                        <rect key="frame" x="-12" y="-10" width="30" height="27"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="3c7-Sx-yFJ"/>
+                            <constraint firstAttribute="width" constant="30" id="v20-cR-sHK"/>
+                        </constraints>
+                        <color key="tintColor" red="0.95839942889999996" green="0.16663436209999999" blue="0.058679457329999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <inset key="imageEdgeInsets" minX="3" minY="0.0" maxX="5" maxY="5"/>
+                        <state key="normal" image="ios-delete-red"/>
+                        <connections>
+                            <action selector="deleteButtonTap:" destination="FuT-1p-mn9" eventType="touchUpInside" id="7oH-oV-JFh"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="mKW-Cd-XXZ" firstAttribute="leading" secondItem="etv-mG-eZM" secondAttribute="leading" constant="-12" id="GXw-Up-GVq"/>
+                <constraint firstItem="xzX-bN-DE0" firstAttribute="top" secondItem="FuT-1p-mn9" secondAttribute="top" id="Pqx-dn-yAL"/>
+                <constraint firstAttribute="trailing" secondItem="xuN-hy-cqq" secondAttribute="trailing" id="VgX-by-InN"/>
+                <constraint firstItem="qcY-sh-kyy" firstAttribute="trailing" secondItem="xzX-bN-DE0" secondAttribute="trailing" constant="-4" id="W5F-iU-9Ix"/>
+                <constraint firstItem="xzX-bN-DE0" firstAttribute="leading" secondItem="FuT-1p-mn9" secondAttribute="leading" id="ZsJ-VU-5WC"/>
+                <constraint firstItem="xzX-bN-DE0" firstAttribute="top" secondItem="FuT-1p-mn9" secondAttribute="top" id="fPX-wT-ImJ"/>
+                <constraint firstItem="xuN-hy-cqq" firstAttribute="top" secondItem="xzX-bN-DE0" secondAttribute="bottom" constant="5" id="fwo-iQ-LrP"/>
+                <constraint firstItem="xuN-hy-cqq" firstAttribute="leading" secondItem="FuT-1p-mn9" secondAttribute="leading" id="h7e-qQ-Oog"/>
+                <constraint firstItem="qcY-sh-kyy" firstAttribute="bottom" secondItem="xzX-bN-DE0" secondAttribute="bottom" constant="-5" id="hUr-cU-MKJ"/>
+                <constraint firstAttribute="bottom" secondItem="xuN-hy-cqq" secondAttribute="bottom" constant="5" id="tnf-Kh-7Qh"/>
+                <constraint firstItem="mKW-Cd-XXZ" firstAttribute="top" secondItem="etv-mG-eZM" secondAttribute="top" constant="-10" id="vHP-ZT-Kgw"/>
+                <constraint firstItem="xzX-bN-DE0" firstAttribute="width" secondItem="FuT-1p-mn9" secondAttribute="width" id="yQB-GH-6mE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="etv-mG-eZM"/>
+            <size key="customSize" width="406" height="474"/>
+            <connections>
+                <outlet property="albumSizeLabel" destination="WIw-WQ-bmq" id="Oaa-zC-jxm"/>
+                <outlet property="albumTitleLabel" destination="F4J-lI-aWM" id="BQG-IN-VAM"/>
+                <outlet property="deleteButton" destination="mKW-Cd-XXZ" id="mO3-dJ-BtR"/>
+                <outlet property="imageView" destination="xzX-bN-DE0" id="yKl-zV-zmO"/>
+                <outlet property="privacyIconButton" destination="qcY-sh-kyy" id="zea-TV-Zgg"/>
+            </connections>
+            <point key="canvasLocation" x="-243" y="-14"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ios-delete-red" width="90" height="90"/>
+    </resources>
+</document>

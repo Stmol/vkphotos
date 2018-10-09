@@ -1,0 +1,243 @@
+
+/* Class = "UIBarButtonItem"; title = "0/20"; ObjectID = "1RY-j2-RXu"; */
+"1RY-j2-RXu.title" = "0/20";
+
+/* Class = "UILabel"; text = "Какие права доступа нужны и для чего?"; ObjectID = "1rt-iX-3gP"; */
+"1rt-iX-3gP.text" = "What VK access rights do we need and why?";
+
+/* Class = "UILabel"; text = "—"; ObjectID = "3NO-vW-aCi"; */
+"3NO-vW-aCi.text" = "—";
+
+/* Class = "UIBarButtonItem"; title = "Отмена"; ObjectID = "4ET-ja-M2L"; */
+"4ET-ja-M2L.title" = "Cancel";
+
+/* Class = "UILabel"; text = "—"; ObjectID = "4YR-Sv-DjF"; */
+"4YR-Sv-DjF.text" = "—";
+
+/* Class = "UILabel"; text = "Политика конфиденциальности"; ObjectID = "4Yn-W7-soD"; */
+"4Yn-W7-soD.text" = "Privacy Policy";
+
+/* Class = "UIBarButtonItem"; title = "Готово"; ObjectID = "78G-RB-bIw"; */
+"78G-RB-bIw.title" = "Done";
+
+/* Class = "UINavigationItem"; title = "Фотографии"; ObjectID = "7Xb-qE-VXL"; */
+"7Xb-qE-VXL.title" = "Photos";
+
+/* Class = "UITableViewSection"; headerTitle = "о приложении"; ObjectID = "7w1-AG-0Xa"; */
+"7w1-AG-0Xa.headerTitle" = "about";
+
+/* Class = "UIButton"; normalTitle = "Войти через ВКонтакте"; ObjectID = "8q1-Cz-bta"; */
+"8q1-Cz-bta.normalTitle" = "Log in with VK";
+
+/* Class = "UILabel"; text = "Альбомы"; ObjectID = "9Vf-sr-dTw"; */
+"9Vf-sr-dTw.text" = "Albums";
+
+/* Class = "UILabel"; text = "Нажимая «Войти», Вы принимаете"; ObjectID = "Aup-rY-7lv"; */
+"Aup-rY-7lv.text" = "By logging in you accept";
+
+/* Class = "UILabel"; text = "и"; ObjectID = "BgT-Bs-ivH"; */
+"BgT-Bs-ivH.text" = "and";
+
+/* Class = "UIBarButtonItem"; title = "Отмена"; ObjectID = "Ca2-q9-Qqf"; */
+"Ca2-q9-Qqf.title" = "Cancel";
+
+/* Class = "UILabel"; text = "Кто может видеть альбом"; ObjectID = "Ddg-lz-CiJ"; */
+"Ddg-lz-CiJ.text" = "Who can view this album";
+
+/* Class = "UIBarButtonItem"; title = "Отмена"; ObjectID = "EDv-qg-0AW"; */
+"EDv-qg-0AW.title" = "Cancel";
+
+/* Class = "UILabel"; text = "Группа ВКонтакте"; ObjectID = "FG3-xb-gyF"; */
+"FG3-xb-gyF.text" = "VK Public Page";
+
+/* Class = "UILabel"; text = "Ограничить размер кэша"; ObjectID = "FLA-I1-diZ"; */
+"FLA-I1-diZ.text" = "Limit Cache Size";
+
+/* Class = "UILabel"; text = "Только я"; ObjectID = "H0N-im-Sb0"; */
+"H0N-im-Sb0.text" = "Only Me";
+
+/* Class = "UILabel"; text = "Album Title"; ObjectID = "HDe-pP-dCd"; */
+"HDe-pP-dCd.text" = "Album Title";
+
+/* Class = "UIBarButtonItem"; title = "Готово"; ObjectID = "HI0-9I-QhE"; */
+"HI0-9I-QhE.title" = "Done";
+
+/* Class = "UILabel"; text = "Все пользователи"; ObjectID = "HUe-iX-biI"; */
+"HUe-iX-biI.text" = "All Users";
+
+/* Class = "UILabel"; text = "Все"; ObjectID = "I4S-cN-T5l"; */
+"I4S-cN-T5l.text" = "All";
+
+/* Class = "UILabel"; text = "Оценить приложение"; ObjectID = "If8-AE-Um6"; */
+"If8-AE-Um6.text" = "Rate App";
+
+/* Class = "UIBarButtonItem"; title = "0/20"; ObjectID = "JS7-yf-b63"; */
+"JS7-yf-b63.title" = "0/20";
+
+/* Class = "UINavigationItem"; title = "Лицензии"; ObjectID = "JZU-mf-hCp"; */
+"JZU-mf-hCp.title" = "Licenses";
+
+/* Class = "UILabel"; text = "Удалить альбом"; ObjectID = "Kjt-on-gSH"; */
+"Kjt-on-gSH.text" = "Delete Album";
+
+/* Class = "UILabel"; text = "—"; ObjectID = "Lcc-Pe-eBB"; */
+"Lcc-Pe-eBB.text" = "—";
+
+/* Class = "UILabel"; text = "Фото"; ObjectID = "M3D-Hb-QhF"; */
+"M3D-Hb-QhF.text" = "Photos";
+
+/* Class = "UILabel"; text = "Доступ к Вашим данным ВКонтакте"; ObjectID = "MO0-uT-cXq"; */
+"MO0-uT-cXq.text" = "Access to Your VK Data";
+
+/* Class = "UILabel"; text = "Только друзья"; ObjectID = "MyY-Dt-2Ne"; */
+"MyY-Dt-2Ne.text" = "Friends Only";
+
+/* Class = "UITabBarItem"; title = "Фото"; ObjectID = "NQT-bZ-roo"; */
+"NQT-bZ-roo.title" = "Photos";
+
+/* Class = "UILabel"; text = "Кто может комментировать"; ObjectID = "OGu-JR-lWX"; */
+"OGu-JR-lWX.text" = "Who can comment on the photos";
+
+/* Class = "UILabel"; text = "—"; ObjectID = "Oqc-Ty-6pg"; */
+"Oqc-Ty-6pg.text" = "—";
+
+/* Class = "UIButton"; normalTitle = "Повторить"; ObjectID = "Pwf-4W-LCb"; */
+"Pwf-4W-LCb.normalTitle" = "Retry";
+
+/* Class = "UILabel"; text = "Пользовательское соглашение"; ObjectID = "UGp-a1-nKt"; */
+"UGp-a1-nKt.text" = "Terms of Service";
+
+/* Class = "UITabBarItem"; title = "Настройки"; ObjectID = "Uor-9C-QRB"; */
+"Uor-9C-QRB.title" = "Settings";
+
+/* Class = "UILabel"; text = "Все"; ObjectID = "WYs-pv-TO8"; */
+"WYs-pv-TO8.text" = "All";
+
+/* Class = "UIBarButtonItem"; title = "Сохранить"; ObjectID = "Y5G-hP-cg5"; */
+"Y5G-hP-cg5.title" = "Save";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "YOK-Fd-Lkd"; */
+"YOK-Fd-Lkd.title" = "Title";
+
+/* Class = "UILabel"; text = "ВКонтакте"; ObjectID = "Z27-PZ-Pfc"; */
+"Z27-PZ-Pfc.text" = "VKontakte";
+
+/* Class = "UITableViewSection"; headerTitle = "файлы"; ObjectID = "ZJO-RI-8En"; */
+"ZJO-RI-8En.headerTitle" = "files";
+
+/* Class = "UILabel"; text = "Ожидает..."; ObjectID = "Zgl-OH-fYi"; */
+"Zgl-OH-fYi.text" = "Waiting...";
+
+/* Class = "UILabel"; text = "Вам не стоит опасаться за Вашу приватность: приложение Photos for VK НЕ передает на сторонние сервера Ваши персональные данные, полученные через API ВКонтакте, а хранит их исключительно на Вашем устройстве, с которого происходит взаимодействие."; ObjectID = "a7j-wY-nJe"; */
+"a7j-wY-nJe.text" = "Your privacy is safe: Photos for VK does not transfer Your personal data received via VK API to third-party servers. This data is stored exclusively on your device.";
+
+/* Class = "UILabel"; text = "Поделиться с друзьями"; ObjectID = "aBM-sm-3VT"; */
+"aBM-sm-3VT.text" = "Share App with Friends";
+
+/* Class = "UINavigationItem"; title = "Альбомы"; ObjectID = "aok-Z5-SSS"; */
+"aok-Z5-SSS.title" = "Albums";
+
+/* Class = "UISegmentedControl"; ayM-ip-07x.segmentTitles[0] = "Все"; ObjectID = "ayM-ip-07x"; */
+"ayM-ip-07x.segmentTitles[0]" = "All";
+
+/* Class = "UISegmentedControl"; ayM-ip-07x.segmentTitles[1] = "Лайки"; ObjectID = "ayM-ip-07x"; */
+"ayM-ip-07x.segmentTitles[1]" = "Likes";
+
+/* Class = "UILabel"; text = "Альбом"; ObjectID = "bBF-Cm-Rep"; */
+"bBF-Cm-Rep.text" = "Album";
+
+/* Class = "UILabel"; text = "Более подробно ознакомиться с правами доступа, Вы можете на странице официальной документации API ВКонтакте"; ObjectID = "bXh-IU-bJc"; */
+"bXh-IU-bJc.text" = "For more information about access rights, you can visit the official documentation page API VKontakte.";
+
+/* Class = "UILabel"; text = "Некоторые списки друзей"; ObjectID = "cIK-mP-jd0"; */
+"cIK-mP-jd0.text" = "Friends from Lists";
+
+/* Class = "UIBarButtonItem"; title = "Отмена"; ObjectID = "cJh-GT-E9f"; */
+"cJh-GT-E9f.title" = "Cancel";
+
+/* Class = "UIBarButtonItem"; title = "Готово"; ObjectID = "cS5-lb-cgA"; */
+"cS5-lb-cgA.title" = "Done";
+
+/* Class = "UINavigationItem"; title = "Альбом"; ObjectID = "cUP-BF-X7j"; */
+"cUP-BF-X7j.title" = "Album";
+
+/* Class = "UILabel"; text = "Удалить кэш фото"; ObjectID = "ets-en-EIR"; */
+"ets-en-EIR.text" = "Clear Photo Cache";
+
+/* Class = "UIBarButtonItem"; title = "Изм."; ObjectID = "f8K-eN-mJT"; */
+"f8K-eN-mJT.title" = "Edit";
+
+/* Class = "UITableViewSection"; headerTitle = "поддержка"; ObjectID = "fdW-BW-e0W"; */
+"fdW-BW-e0W.headerTitle" = "support";
+
+/* Class = "UIBarButtonItem"; title = "Отмена"; ObjectID = "fhh-Ud-ogO"; */
+"fhh-Ud-ogO.title" = "Cancel";
+
+/* Class = "UILabel"; text = "Друзья и друзья друзей"; ObjectID = "glh-a8-6nC"; */
+"glh-a8-6nC.text" = "Friends and Their Friends";
+
+/* Class = "UITextField"; placeholder = "Название альбома"; ObjectID = "ioN-cn-IaU"; */
+"ioN-cn-IaU.placeholder" = "Album title";
+
+/* Class = "UILabel"; text = "Политику конфиденциальности"; ObjectID = "jFc-NZ-aLR"; */
+"jFc-NZ-aLR.text" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Лицензии"; ObjectID = "jLa-Bv-wjL"; */
+"jLa-Bv-wjL.text" = "Licenses";
+
+/* Class = "UINavigationItem"; title = "Альбомы"; ObjectID = "jVf-dL-FTy"; */
+"jVf-dL-FTy.title" = "Albums";
+
+/* Class = "UIBarButtonItem"; title = "Загрузить"; ObjectID = "jbX-NZ-5PI"; */
+"jbX-NZ-5PI.title" = "Upload";
+
+/* Class = "UILabel"; text = "Как и все приложения, которые работают с API ВКонтакте, Photos for VK запрашивает права доступа к разделам данных, необходимые для предоставления заявленного функционала.   Доступ к некоторым из этих разделов, может показаться неочевидным, и поэтому мы рассказываем какие разделы используем и для чего:\n\n1. Информация страницы: это базовый раздел данных, который требуется для работы любого приложения, использующего API ВКонтакте \n2. Фотографии: основной функционал приложения Photos for VK, и права на доступ к фото используется для таких операций, как получение списков, удаление, создание и редактирование альбомов и фотографий\n 3. Доступ в любое время: необходимо, чтобы не запрашивать логин и пароль каждый раз при входе в приложение\n 4. Список друзей: Вам может показаться это странным, но доступ к друзьям необходим, чтобы получить список избранных фотографий\n 5. Публикация записей: как и пункт с друзьями, доступ, поражает своей неочевидностью, но он необходим приложению для возможности ставить и удалять отметки «Мне нравится». Приложение Photos for VK не публикует никаких записей на Вашей странице!"; ObjectID = "jd6-xa-J83"; */
+"jd6-xa-J83.text" = "Like all applications that work with the VK API, Photos for VK requests access rights to the data sections necessary to provide the claimed functionality. Access to some of these sections may not seem obvious, and so we tell you what sections we use and what for:\n\n1. Profile info: this is the basic data section that is required for any application that uses the VK API \n\n2. Photos: the basic functionality of the Photos for VK, and photo access rights are used for operations such as getting lists, deleting, creating and editing albums and photos\n\n3. Offline access: it is necessary not to ask for a login and password every time you log in to the application\n\n4. Friends list: you may find this strange, but access to friends is needed to get a list of your favourite photos\n\n5. Your wall: like the point with friends list, access is striking in its non-obviousness, but it is necessary for the application to be able to put and remove the Like mark. Photos for VK doesn't publish any posts on your page without your approval!";
+
+/* Class = "UILabel"; text = "Некоторые друзья"; ObjectID = "jvu-V7-0eB"; */
+"jvu-V7-0eB.text" = "Certain friends";
+
+/* Class = "UIButton"; normalTitle = "Ок, понятно"; ObjectID = "l1g-8w-dn8"; */
+"l1g-8w-dn8.normalTitle" = "OK, sure";
+
+/* Class = "UINavigationItem"; title = "Загрузка"; ObjectID = "lES-gw-CfV"; */
+"lES-gw-CfV.title" = "Upload";
+
+/* Class = "UINavigationItem"; title = "Альбомы"; ObjectID = "la3-8x-yxw"; */
+"la3-8x-yxw.title" = "Albums";
+
+/* Class = "UILabel"; text = "Ошибка :("; ObjectID = "lyF-My-Qt3"; */
+"lyF-My-Qt3.text" = "Error :(";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "m7W-oT-VoF"; */
+"m7W-oT-VoF.text" = "0";
+
+/* Class = "UITabBarItem"; title = "Альбомы"; ObjectID = "oOw-Ca-L3r"; */
+"oOw-Ca-L3r.title" = "Albums";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "r66-aN-iK2"; */
+"r66-aN-iK2.text" = "Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "sTx-lL-mWY"; */
+"sTx-lL-mWY.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Настройки"; ObjectID = "soK-7s-Z51"; */
+"soK-7s-Z51.title" = "Settings";
+
+/* Class = "UIBarButtonItem"; title = "Загрузить"; ObjectID = "vFQ-3F-2KI"; */
+"vFQ-3F-2KI.title" = "Upload";
+
+/* Class = "UITableViewSection"; headerTitle = "Настройки приватности"; ObjectID = "y4A-KO-vAk"; */
+"y4A-KO-vAk.headerTitle" = "Privacy settings";
+
+/* Class = "UILabel"; text = "Выход"; ObjectID = "yDm-RG-UOO"; */
+"yDm-RG-UOO.text" = "Log Out";
+
+/* Class = "UITableViewSection"; headerTitle = "Аккаунт"; ObjectID = "yDy-Fz-v4k"; */
+"yDy-Fz-v4k.headerTitle" = "Profile";
+
+/* Class = "UILabel"; text = "Версия"; ObjectID = "zYe-Mj-0VI"; */
+"zYe-Mj-0VI.text" = "Version";
+
+/* Class = "UINavigationItem"; title = "Фото"; ObjectID = "znD-NY-6Y3"; */
+"znD-NY-6Y3.title" = "Photo";
