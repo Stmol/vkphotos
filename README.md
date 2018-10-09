@@ -26,8 +26,6 @@ VK Photos is an iOS app for manage albums and photos in social network VKontakte
 - iOS 11 and later
 - Swift 4 and later
 - [Carthage](https://github.com/Carthage/Carthage)
-- ...
-- *and unfortunately no matter how perfect you are all done you will not be able to run the application in the simulator*
 
 ## Try App
 
@@ -41,6 +39,8 @@ You can try **VK Photos** by downloading the app to your iPhone from App Store. 
 - Obtain your VK app ID and insert it into `AppDelegate.swift`
 - Run Carthage: ```$ carthage update --platform ios```
 - Install Firebase SDK: [documentation](https://firebase.google.com/docs/ios/setup#frameworks) *(or just mute all Analytics calls, you probably dont need it)*
+- ...
+- *and unfortunately no matter how perfect you are all done you will not be able to run the application in the simulator*
 
 ## Why app doesn't display anything when running in simulator? (or just crash)
 
