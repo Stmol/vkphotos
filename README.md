@@ -1,4 +1,4 @@
-![Logo]()
+![Logo](https://github.com/Stmol/vkphotos/blob/master/.readme/vk-photos-appstore-icon.jpg)
 
 # VK Photos (formally Photos for VK)
 
@@ -10,9 +10,9 @@ VK Photos is an iOS app for manage albums and photos in social network VKontakte
 
 ## Screenshots
 
-![Screenshot1]()
-![Screenshot2]()
-![Screenshot3]()
+![Screenshot1](https://github.com/Stmol/vkphotos/blob/master/.readme/screen2.jpg)
+![Screenshot2](https://github.com/Stmol/vkphotos/blob/master/.readme/screen1.jpg)
+![Screenshot3](https://github.com/Stmol/vkphotos/blob/master/.readme/screen3.jpg)
 
 ## Disclaimer
 
@@ -31,7 +31,7 @@ VK Photos is an iOS app for manage albums and photos in social network VKontakte
 
 You can try **VK Photos** by downloading the app to your iPhone from App Store. It's **free** (*iOS 11+ required*)
 
-[![AppStore Link]()](https://vk.cc/8xwT04)
+[![AppStore Link](https://github.com/Stmol/vkphotos/blob/master/.readme/app-store-badge.jpg)](https://vk.cc/8xwT04)
 
 ## Installation
 
