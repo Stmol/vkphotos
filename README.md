@@ -40,13 +40,13 @@ You can try **VK Photos** by downloading the app to your iPhone from App Store. 
 - Run Carthage: ```$ carthage update --platform ios```
 - Install Firebase SDK: [documentation](https://firebase.google.com/docs/ios/setup#frameworks) *(or just mute all Analytics calls, you probably dont need it)*
 - ...
-- *and unfortunately no matter how perfect you are all done you will not be able to run the application in the simulator*
+- *and unfortunately no matter how perfect you are all done you will not be able to run properly the application in the simulator*
 
 ## Why app doesn't display anything when running in simulator? (or just crash)
 
 Because **VK Photos** app use many custom API calls.
 
-To simplify the logic of the app in some places I wrote a lot of custom API using greate [execute](https://vk.com/dev/execute) method. These methods are stored on the VK API servers and accessible only to my VK application. For obvious reasons, these methods I can not disclose.
+To simplify the logic of the app in some places I wrote a lot of custom API methods using greate [execute](https://vk.com/dev/execute) method. These methods are stored on the VK API servers and accessible only to my VK application. For obvious reasons, these methods I can not disclose.
 
 ## Author
 
