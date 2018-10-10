@@ -17,9 +17,9 @@ VK Photos is an iOS app for manage albums and photos in social network VKontakte
 
 ## Disclaimer
 
-- ??  The repository contains tons of comments and todos in **Russian** language
-- ??  I deleted all assets except App logo because the license agreements requires it
-- ??  This source code is not for production and not for distribution. I shared it just for educational purposes
+- ⚠️ The repository contains tons of comments and todos in **Russian** language
+- 🖼 I deleted all assets except App logo because the license agreements requires it
+- 🔬 This source code is not for production and not for distribution. I shared it just for educational purposes
 
 ## Requirements
 
