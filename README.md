@@ -79,10 +79,6 @@ To simplify the logic of the app in some places I wrote a lot of custom API meth
 
 Developed by **Yury Smidovich**.
 
-I'm independent iOS and backend developer. Feel free to [contact me](https://t.me/Deviant).
-
-I will be glad to collaboration. Or you can [hire me](https://www.linkedin.com/in/yury-smidovich-339710103/).
-
 ## License
 
 VK Photos is available under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for more info.
