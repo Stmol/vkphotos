@@ -30,9 +30,11 @@ VK Photos is an iOS app for manage albums and photos in social network VKontakte
 
 ## Try App
 
-You can try **VK Photos** by downloading the app to your iPhone from App Store. It's **free** (*iOS 11+ required*)
+~~You can try **VK Photos** by downloading the app to your iPhone from App Store. It's **free** (*iOS 11+ required*)~~
 
-[![AppStore Link](https://github.com/Stmol/vkphotos/blob/master/.readme/app-store-badge.jpg)](https://vk.cc/8xwT04)
+UPD 09/2019: The application was removed from the App Store because I did not renew my developer license 🤷‍♀️ Stay tuned.
+ 
+<!-- [![AppStore Link](https://github.com/Stmol/vkphotos/blob/master/.readme/app-store-badge.jpg)](https://vk.cc/8xwT04) -->
 
 ## Installation
 
