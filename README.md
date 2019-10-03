@@ -5,7 +5,7 @@
 ![Swift 4.2](https://img.shields.io/badge/swift-4.2-orange.svg)
 ![Release Version](https://img.shields.io/badge/Release-1.1-blue.svg)
 ![GPL 3.0](https://img.shields.io/badge/license-GPL--3.0-lightgrey.svg)
-[![App Store Available](https://img.shields.io/badge/app%20store-available-brightgreen.svg)](https://vk.cc/8xwT04)
+<!-- [![App Store Available](https://img.shields.io/badge/app%20store-available-brightgreen.svg)](https://vk.cc/8xwT04) -->
 
 VK Photos is an iOS app for manage albums and photos in social network VKontakte ([vk.com](https://vk.com))
 
